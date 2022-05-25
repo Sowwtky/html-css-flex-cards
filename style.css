@@ -1,9 +1,10 @@
+/*regole universali*/
 *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
-
+/*commons*/
 html{
     font-family: 'Fredoka', sans-serif;;
 }
@@ -13,7 +14,6 @@ body{
 }
 
 h1{
-    margin-top: 15px;
     color: #e53170;
     text-align: center;
 }
@@ -40,15 +40,18 @@ a:hover{
 
 .text p{
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: center;
-
+    margin-left: 124.500px;
+    margin-right: 124.500px;
 }
 
 .flex-container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .flex-container2{
@@ -57,6 +60,10 @@ a:hover{
     padding-right: 40px;
     width: 260px;
     margin-bottom: 30px;
+    box-shadow:  2px  2px 4px #b6b6b6,
+              -2px -2px 4px #b6b6b6,
+               2px -2px 4px #b6b6b6,
+              -2px  2px 4px #b6b6b6;
 }
 
 .flex-container2 p{
@@ -64,6 +71,7 @@ a:hover{
     font-size: 12px;
     padding-top: 4px;
 }
+
 .flex-container2 div{
     padding: 8px 0px;
 }
