@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-family: 'Fredoka', sans-serif;;
+}
+body{
+    margin: 10px 70px;
+    text-align: center;
+}
+h1{
+    margin-top: 15px;
+    color: #e53170;
+}
+
+.text p{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
