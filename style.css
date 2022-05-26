@@ -5,13 +5,11 @@
     margin: 0px;
 }
 /*commons*/
-html{
-    font-family: 'Fredoka', sans-serif;;
+body{
+    font-family: 'Fredoka', sans-serif;
+    margin: 40px 125px;
 }
 
-body{
-    margin: 50px 50px;
-}
 
 h1{
     color: #e53170;
@@ -42,15 +40,12 @@ a:hover{
     margin-top: 50px;
     margin-bottom: 40px;
     text-align: center;
-    margin-left: 124.500px;
-    margin-right: 124.500px;
 }
 
 .flex-container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1000px;
     margin: 0 auto;
 }
 
